@@ -1,0 +1,21 @@
+#figure {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border: 2px solid black;
+}
+#modal {
+    display: none;
+}
+#color-blocks {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+    background-color: lightgray;
+}
+.circle {
+    border-radius: 50%;
+    position: absolute;
+}
