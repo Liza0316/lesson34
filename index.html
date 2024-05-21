@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Double Click Circle</title>
+</head>
+<body>
+    <div id="figure">
+        <div id="color-blocks">Available Color Blocks</div>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <form id="circle-form">
+                <label for="diameter">Diameter:</label>
+                <input type="number" id="diameter" name="diameter" min="20" max="100">
+                <label for="color">Color:</label>
+                <input type="color" id="color" name="color">
+                <button type="button" id="update-btn">Update</button>
+                <button type="button" id="cancel-btn">Cancel</button>
+            </form>
+        </div>
+    </div>
+    <script src="first.js"></script>
+    <script src="./second.js"></script>
+</body>
+</html>
